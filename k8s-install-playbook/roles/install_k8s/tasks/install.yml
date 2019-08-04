@@ -1,5 +1,11 @@
+- name: Download Docker
+  get_url: 
+    url: https://get.docker.com
+    dest: /tmp/installer.sh
+    mode: 0755
+
 - name: Install Docker
-  shell: curl -fsSL https://get.docker.com | bash -
+  shell: bash /tmp/installer.sh
 
 - name: Add Apt signing key
   apt_key:
