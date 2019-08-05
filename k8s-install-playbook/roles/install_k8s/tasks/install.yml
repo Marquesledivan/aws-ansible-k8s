@@ -5,7 +5,7 @@
     mode: 0755
 
 - name: Install Docker
-  shell: bash /tmp/installer.sh
+  shell: /tmp/installer.sh
 
 - name: Add Apt signing key
   apt_key:
