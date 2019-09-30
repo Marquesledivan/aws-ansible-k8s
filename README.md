@@ -24,8 +24,8 @@ You need to install Ansible in your computer and have an account into AWS. If yo
 To create the instance is needed that you set two environment variables, AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID, with your AWS account info.
 
 ```
-export AWS_ACCESS_KEY_ID="SHDJSJHDJBNTTS"
-export AWS_SECRET_ACCESS_KEY="hSs8s8282kkdbJzUdddd/ss/o+ser"
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
 ```
 
 Install PIP:
